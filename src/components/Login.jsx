@@ -31,6 +31,7 @@ const Login = () => {
       toast.error("Invalid credentials");
     } else {
       changeLogin();
+      localStorage.setItem('user', JSON.stringify(input))
       navigate("/home");
       toast.success("Login Succesful");
     }
@@ -56,7 +57,7 @@ const Login = () => {
               onChange={inputChange}
               placeholder="Password"
             />
-            <button type="submit">Sign in</button>
+            <button type="submit" className="btn">Sign in</button>
           </form>
         </div>
       </div>
