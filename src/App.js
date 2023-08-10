@@ -10,10 +10,9 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Login />} />
-        {/* <Route path="/home" element={<PrivateRoute />}>
-        </Route> */}
+        <Route path="/home" element={<PrivateRoute />}>
           <Route path="/home" element={<Home />} />
-       
+        </Route>
       </Routes>
       <Toaster
         toastOptions={{

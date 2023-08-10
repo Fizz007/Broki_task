@@ -42,7 +42,7 @@ const Login = () => {
         <div className="wrapper">
           <h1>Get Started</h1>
           <p>Fill the form to Login</p>
-          <form onSubmit={handleLogin}>
+          <form onSubmit={handleLogin} autoComplete="on">
             <input
               type="email"
               name="user"

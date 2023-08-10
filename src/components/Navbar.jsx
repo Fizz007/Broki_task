@@ -3,10 +3,18 @@ import { RxCross2 } from 'react-icons/rx';
 import { HiOutlineBars3BottomRight } from 'react-icons/hi2';
 import '../Style/Style.css';
 import '../Style/Responsive.css';
+import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-hot-toast';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+    const navigate = useNavigate()
+
+    function handleSignout(){
+        navigate('/')
+        toast.success("You have been Logged out");
+    }
     return (
         <div className='navbar'>
             <div className="headerr" >
@@ -25,6 +33,7 @@ const Navbar = () => {
                                 <li>Contact Us</li>
                                 
                             </ul>
+                            <button className='signout' onClick={handleSignout}>Sign Out</button>
                         </div>
                     </div>
                 </div>
