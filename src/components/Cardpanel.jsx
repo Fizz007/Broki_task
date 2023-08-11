@@ -11,17 +11,7 @@ const Cardpanel = ({ item }) => {
         <main className="main-content">
           <p>Base kitchen space available for lease in Dwarks sector 3</p>
 
-          <div className="rent">
-            {/* <div className="flex-row">
-                  <h5>Monthly Rent</h5>
-                  <h5>Monthly Sales</h5>
-                  <h5>Area</h5>
-                </div>
-                <div className="flex_detail">
-                  <p>{rent}</p>
-                  <p>{sales}</p>
-                  <p>{area}</p>
-                </div> */}
+          <div className="rent">        
 
             <div className="flex_detail">
               <p>Monthly Rent</p>
