@@ -51,6 +51,7 @@ npm run start
 
 ### Screenshot of Project
 
-![Screenshot 2023-08-10 234134](https://github.com/Fizz007/Broki_task/assets/114504997/9a209448-d40c-4b57-8253-c96b90b62c4d)
+
+![Screenshot 2023-08-10 234134](https://github.com/Fizz007/Broki_task/assets/114504997/676e0eed-05a0-4334-92aa-3110b12ecd2c)
 
 
