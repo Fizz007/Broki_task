@@ -36,7 +36,8 @@ h1{
   font-size: 2rem;
   color: #07001f;
 }
-p{
+
+.wrapper p{
   margin-bottom: 1.7rem;
 }
 form input{

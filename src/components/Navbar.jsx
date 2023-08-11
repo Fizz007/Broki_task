@@ -31,11 +31,10 @@ const Navbar = () => {
                                 <li>Online ordering management</li>
                                 <li>Inquiry form</li>
                                 <li>Blog</li>
-                                <li>Contact Us</li>
-                                
+                                <li>Contact Us</li>                                
                             </ul>
-                            <button className='signout' onClick={handleSignout}>Sign Out</button>
                         </div>
+                            <button className='custom-btn' onClick={handleSignout}>Sign Out</button>
                     </div>
                 </div>
                 <div className="mobile-menu">
