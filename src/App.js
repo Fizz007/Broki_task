@@ -16,13 +16,13 @@ function App() {
       </Routes>
       <Toaster
         toastOptions={{
-          duration: 4000,
+          duration: 3000,
           position: "top-center",
           className: "",
           style: {
-            border: "1px solid #713200",
-            padding: "16px",
-            color: "#713200",
+            borderRadius: "10px",
+            background: "#333",
+            color: "#fff",
           },
         }}
       />
