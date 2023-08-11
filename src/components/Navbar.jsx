@@ -13,6 +13,7 @@ const Navbar = () => {
 
     function handleSignout(){
         navigate('/')
+        localStorage.removeItem("user")
         toast.success("You have been Logged out");
     }
     return (
