@@ -17,17 +17,21 @@ body{
   align-items: center;
   width: 100vw;
   height: 100vh;
+  background: url('./assets/login.jpg');
+  background-size: cover; /* Adjust the background sizing */
+  background-position: center;
 }
 
 .wrapper{  
   width: 330px;
   padding: 2rem 0 1rem 0;
   /* margin: 50px auto; */
-  background: #fff;
+  background: #faf3e0;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
+
 h1{
   font-size: 2rem;
   color: #07001f;
