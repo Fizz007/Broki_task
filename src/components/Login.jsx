@@ -26,7 +26,7 @@ const Login = () => {
     e.preventDefault();
 
     if (!input.user || !input.pass) {
-      toast.error("Some fileds are missing");
+      toast.error("Some fields are missing");
     } else if (input.user !== username || input.pass !== password) {
       toast.error("Invalid credentials");
     } else {
