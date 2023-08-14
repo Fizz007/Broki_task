@@ -12,9 +12,9 @@ const Navbar = () => {
     const navigate = useNavigate()
 
     function handleSignout(){
-        navigate('/')
         localStorage.removeItem("user")
         toast.success("You have been Logged out");
+        navigate('/')
     }
     return (
         <div className='navbar'>
